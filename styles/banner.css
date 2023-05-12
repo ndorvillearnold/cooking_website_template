@@ -1,0 +1,85 @@
+.banner-container {
+	/*  WHY commented out changes aliugnment and makes it responsive*/
+
+	/* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  */
+	 padding: 40px; 
+} 
+
+.title-item {
+	/* position: absolute; */
+	width: 600px;
+	height: 225px;
+	left: 80px;
+	top: 108px;
+	font-family: "Roboto Serif";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color: var --yellow;
+}
+
+.banner-text {
+	/* position: absolute; */
+	width: 600px;
+	height: 128px;
+	left: 80px;
+	top: 365px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.banner-img {
+	float: right;
+	margin: 50px;
+}
+
+.knifeImage{
+
+	left: 9.38%;
+	right: 9.4%;
+	top: 12.52%;
+	bottom: 14.12%;
+}
+.potImage{
+	left: 50%;
+right: 50%;
+top: 6.25%;
+bottom: 81.25%;
+}
+.clipboard{
+
+left: 37.5%;
+right: 37.5%;
+top: 46.88%;
+bottom: 53.12%;
+
+}
+/* .card__image {
+	padding-top: 2px;
+} */
+/* 
+unhide hwen done */
+
+/* .cardOne{
+
+   
+    /* position: absolute; */
+/* width: 400px;
+    height: 324px;
+    left: 80px;
+    top: 40px;
+    
+    /* Accent */
+/*     
+    background:  var(--yellow);
+    border-radius: 40px; */
+/* 
+
+} */

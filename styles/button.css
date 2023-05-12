@@ -1,0 +1,19 @@
+.navbar-button {
+	width: 130px;
+	height: 48px;
+	left: 1230px;
+	top: 26px;
+	background-color: var(--black);
+	border-radius: 28px;
+	color: var(--white);
+}
+
+button {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 50px;
+	border: 1px solid #dcdcdc;
+	line-height: 28px;
+}
