@@ -7,25 +7,19 @@
 	--yellow: #febd2f;
 }
 
-.page_footer_container{
+.page_footer_container {
 	justify-content: center;
-	display: flex; 
+	display: flex;
 	margin-top: 20px;
-	
 }
 
 /*not sure why VAR colors didnt work here*/
 .footer-logo {
-	padding-right:100%;
+	padding-right: 100%;
 	padding-left: 100%;
 	width: 129.62px;
-height: 32px;
-left: 655px;
-/* top: 24px; */
-	/* width: 1440px;
-	height: 80px;
-	left: 0px;
-	; */
+	height: 32px;
+	left: 655px;
 	top: 1586px;
 	align-items: center;
 	background-color: var(--yellow);
