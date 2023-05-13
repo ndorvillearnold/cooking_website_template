@@ -9,7 +9,7 @@
 
 .page_footer_container{
 	justify-content: center;
-	/* display: flex; */
+	display: flex; 
 	margin-top: 20px;
 	
 }

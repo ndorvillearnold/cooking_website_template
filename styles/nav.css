@@ -1,24 +1,11 @@
-body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
-	background: var(--light-gray);
-	
-}
+
+
 
 .nav-container {
 	/* display: flex; */
-	align-items: center;
+	display: flex;
 	justify-content: space-between;
-
 	
-	/* margin-right: 800px; */
-
-	/* justify-content: flex-start; */
-	/* justify-content: space-around; */
-
-	/* align-items: stretch; */
 }
 .nav-links {
 	margin-left: 5px;

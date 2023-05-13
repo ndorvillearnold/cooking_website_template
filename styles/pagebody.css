@@ -1,6 +1,7 @@
-.body-container{
+.body-container {
 	display: flex;
-	
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .title-container {
@@ -10,10 +11,7 @@
 	height: 225px;
 	left: 80px;
 	top: 108px;
-	
 }
-
-
 
 .page__img {
 	width: 600px;
@@ -23,5 +21,3 @@
 	background: url(image.png);
 	border-radius: 40px;
 }
-
-

@@ -1,16 +1,15 @@
 .cards__container {
 	flex-wrap: wrap;
-	/* display: flex; */
+	 display: flex;
 	text-align: center;
 	flex-direction: row;
 	border-radius: 40px;
 	align-items: center;
-	
+
 	gap: 32px;
 	/* flex-direction: stretch; */
 
 	justify-content: space-around;
-
 }
 .card {
 	justify-content: space-between;
@@ -50,4 +49,3 @@ h3,
 .template__title {
 	padding: 30px;
 }
-
