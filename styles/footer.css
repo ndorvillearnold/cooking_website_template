@@ -7,20 +7,11 @@
 	--yellow: #febd2f;
 }
 
-.page_footer_container {
-	justify-content: center;
-	display: flex;
-	margin-top: 20px;
+.footer__logo {
+	
+	text-align: center;
+	background-color: var(--yellow);
+	margin-top: 30px;
 }
 
-/*not sure why VAR colors didnt work here*/
-.footer-logo {
-	padding-right: 100%;
-	padding-left: 100%;
-	width: 129.62px;
-	height: 32px;
-	left: 655px;
-	top: 1586px;
-	align-items: center;
-	background-color: var(--yellow);
-}
+

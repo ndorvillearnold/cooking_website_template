@@ -1,48 +1,38 @@
-.nav-container {
+nav ul {
 	display: flex;
-	justify-content: space-between;
 }
-.nav-links {
-	margin-left: 5px;
+nav ul li {
 	margin-right: 20px;
-}
-.nav-item {
-	height: 50px;
-	width: 75px;
-}
-
-.navbar-logo {
-	width: 162.03px;
-	height: 40px;
-	left: 639px;
-	top: 30px;
-}
-
-ul {
 	list-style-type: none;
 }
-
-/*contact us and aboutus inline instead oof listed items*/
+li a:hover {
+	color: blue;
+}
 li {
-	display: inline-flex;
+	position: relative;
 	display: inline-block;
+	margin-right: 20px;
+	padding: 10px;
 }
 
-.courselink {
-	width: 65px;
-	height: 19px;
-	left: 187px;
-	top: 38px;
+li a {
+	color: var(--black);
+	font-size: 24px;
+	/* text-decoration: none; */
+	transition: color 1s;
 }
 
-.aboutuslink {
-	width: 65px;
-	height: 19px;
-	left: 187px;
-	top: 38px;
+li::after {
+	content: "";
+	background-color: var(--black);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	transition: width 0.5s;
 }
-
-.button1 {
+.navbar-button {
 	margin-right: 82px;
 	border-radius: 28px;
 	width: 82px;

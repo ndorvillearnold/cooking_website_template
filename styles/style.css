@@ -6,12 +6,48 @@
 	--white: #fff;
 	--yellow: #febd2f;
 }
-
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif;
 	background: var(--light-gray);
+	display: flex;
+	flex-direction: column;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/*remove below once the site is completed ( this is animation section*/
+
+
+
+h1 {
+	font-size: 5em;
+	font-family: serif;
+	color: #008000;
 	
+	animation: animate 
+	1.5s linear infinite;
+	position: absolute;
+
+	
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0.7;
+	}
+
+	100% {
+		opacity: 0;
+	}
 }
